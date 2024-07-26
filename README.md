@@ -1,3 +1,9 @@
+### About
+This is a simple Kotlin & Spring Boot backend CRUD app. 
+
+
+## Development Notes
+
 #### Kotlin
 - Statically typed (type checking done by compiler during compile time) programming language running on JVM (JVM isn’t compulsory for the reason below)
 - Can be compiled to JS or native code (ahead-of-time compilation, AOT) using Kotlin/Native
