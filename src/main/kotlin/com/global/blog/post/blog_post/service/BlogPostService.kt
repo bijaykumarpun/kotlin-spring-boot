@@ -1,8 +1,8 @@
-package com.global.blog.post.blog_post
+package com.global.blog.post.blog_post.service
 
+import com.global.blog.post.blog_post.models.BlogPost
+import com.global.blog.post.blog_post.repository.BlogPostRepository
 import jakarta.transaction.Transactional
-import org.springframework.data.jpa.repository.JpaRepository
-import org.springframework.data.repository.findByIdOrNull
 import org.springframework.stereotype.Service
 
 @Service

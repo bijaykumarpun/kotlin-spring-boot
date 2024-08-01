@@ -1,4 +1,4 @@
-package com.global.blog.post.blog_post
+package com.global.blog.post.blog_post.models
 
 import jakarta.persistence.Entity
 import jakarta.persistence.GeneratedValue
