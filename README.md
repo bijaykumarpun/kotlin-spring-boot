@@ -45,3 +45,15 @@ This is a simple Kotlin & Spring Boot backend CRUD app.
 - Packaging in refers to the process of bundling all the components of a software application into a single file or set of files that can be easily distributed and deployed.
 - JAR files are used for general-purpose Java applications and libraries, while WAR files are specifically designed for web applications and include additional structure and configuration needed for deployment on web servers.
 - For a typical backend application, especially one built with Spring Boot, use JAR packaging. It offers flexibility, ease of deployment, and aligns well with modern deployment practices.
+
+#### Feature Topics
+- [x] CRUD operation
+- [ ] Setting-up development/production/qa environments
+- [ ] Authentication & authorisation
+- [ ] Kotlin Coroutines 
+- [ ] Connectivity with Different DBs(MySQL, Postgres, MongoDB)
+- [ ] Unit test
+- [ ] Integration test
+- [ ] Containerisation
+- [ ] Deployment
+    
