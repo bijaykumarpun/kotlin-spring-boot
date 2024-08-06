@@ -48,7 +48,7 @@ This is a simple Kotlin & Spring Boot backend CRUD app.
 
 #### Feature Topics
 - [x] CRUD operation
-- [ ] Setting-up development/production/qa environments
+- [x] Setting-up development/production/qa environments
 - [ ] Authentication & authorisation
 - [ ] Kotlin Coroutines 
 - [ ] Connectivity with Different DBs(MySQL, Postgres, MongoDB)
@@ -56,4 +56,17 @@ This is a simple Kotlin & Spring Boot backend CRUD app.
 - [ ] Integration test
 - [ ] Containerisation
 - [ ] Deployment
+
+### Controller Class
+- Controller classes act as an intermediary between the user interface (external requests) and the application's business logic.
+- They handle incoming HTTP requests and return response to the client.
+- Annotated with `@RestController` or `@Controller` to indicate Spring controller
+    - `@RestController` is a specialization of `@Controller` that automatically applies `@ResponseBody` to all methods (meaning return values are written directly to the HTTP response body)
+
+#### Service Class
+- A service class is used to encapsulate business logic and interact with repositories.
+- A service is used by controller.
+- Acts as a middle layer between controllers and repositories or other data source
+- Annotated with `@Service`
+
     
