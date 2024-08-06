@@ -2,6 +2,7 @@ package com.global.blog.post.blog_post.controller
 
 import com.global.blog.post.blog_post.service.BlogPostService
 import com.global.blog.post.blog_post.models.BlogPost
+import com.global.blog.post.blog_post.service.ApiService
 import org.springframework.http.HttpStatus
 import org.springframework.http.ResponseEntity
 import org.springframework.web.bind.annotation.DeleteMapping
@@ -14,8 +15,8 @@ import org.springframework.web.bind.annotation.RequestMapping
 import org.springframework.web.bind.annotation.RestController
 
 @RestController
-@RequestMapping("/posts")
-class BlogPostController(private val blogPostService: BlogPostService) {
+@RequestMapping("\${api.base.url}/posts")
+class BlogPostController(private val blogPostService: BlogPostService, private val apiService: ApiService) {
 
     @GetMapping
     fun getAllBlogPosts(): ResponseEntity<List<BlogPost>> {
