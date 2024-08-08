@@ -11,7 +11,7 @@ data class BlogPost(
     val id: Long? = null,
     val title: String,
     val content: String,
-    val author: String
+    val author: String? = null,
 ) {
     constructor() : this(null, "", "", "")
 }
